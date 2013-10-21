@@ -1,0 +1,32 @@
+{
+  "name": "ahab-node",
+  "version": "0.0.0",
+  "description": "Node-based client for ahab.io",
+  "main": "index.js",
+  "bin": {
+    "ahabjs": "./bin/ahabjs"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/svizzari/ahab-node.git"
+  },
+  "keywords": [
+    "ahab"
+  ],
+  "author": "Stefan Vizzari",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/svizzari/ahab-node/issues"
+  },
+  "devDependencies": {
+    "mocha": "~1.13.0",
+    "jshint": "~2.3.0",
+    "chai": "~1.8.1"
+  },
+  "dependencies": {
+    "optimist": "~0.6.0"
+  }
+}

@@ -1,0 +1,7 @@
+#!/usr/bin/env node
+var argv = require('optimist')
+  .options({
+    'fetch': { }
+  }).argv;
+
+console.log(argv._);
